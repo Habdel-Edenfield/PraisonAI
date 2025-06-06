@@ -6,6 +6,7 @@ Quick test script to verify graph memory implementation
 import sys
 import os
 import pytest
+pytest.importorskip("praisonaiagents")
 from unittest.mock import patch, MagicMock
 
 # Add the source directory to Python path - fix the path

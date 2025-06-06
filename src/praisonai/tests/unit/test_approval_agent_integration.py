@@ -10,6 +10,7 @@ import sys
 import os
 import asyncio
 import pytest
+pytest.importorskip("praisonaiagents")
 from unittest.mock import patch, MagicMock
 
 # Add the praisonai-agents module to path

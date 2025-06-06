@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 
-from praisonaiagents import Agent, MCP
 import os
+import pytest
+pytest.importorskip("praisonaiagents")
+from praisonaiagents import Agent, MCP
 
 def test_agent_direct():
     """Test using gpt-4o-mini directly (agent.py path)"""

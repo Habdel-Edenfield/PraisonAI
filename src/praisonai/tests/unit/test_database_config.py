@@ -5,6 +5,8 @@ Test script for database_config module functionality.
 
 import sys
 import os
+import pytest
+pytest.importorskip("yaml")
 
 # Import from the proper module path
 from praisonai.ui.database_config import should_force_sqlite, get_database_url_with_sqlite_override, get_database_config_for_sqlalchemy

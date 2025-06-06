@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Test self-reflection functionality in both Agent and LLM classes"""
 
+import pytest
+pytest.importorskip("praisonaiagents")
 from praisonaiagents import Agent
 from praisonaiagents.llm import LLM
 

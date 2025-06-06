@@ -5,6 +5,8 @@ Test script to verify context management functionality
 
 import sys
 import os
+import pytest
+pytest.importorskip("praisonaiagents")
 sys.path.append(os.path.join(os.path.dirname(__file__), 'src', 'praisonai-agents'))
 
 from praisonaiagents.task.task import Task

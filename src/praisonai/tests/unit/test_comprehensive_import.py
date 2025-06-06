@@ -6,6 +6,8 @@ Tests the original failing import from the GitHub issue
 
 import sys
 import os
+import pytest
+pytest.importorskip("praisonaiagents")
 
 # Add the praisonai-agents source to Python path
 sys.path.insert(0, '/home/runner/work/PraisonAI/PraisonAI/src/praisonai-agents')
