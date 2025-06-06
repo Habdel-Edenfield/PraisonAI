@@ -3,6 +3,9 @@
 Simple test for Agent guardrail functionality.
 """
 
+import pytest
+pytest.importorskip("praisonaiagents")
+
 def test_agent_guardrails():
     """Test basic Agent guardrail functionality."""
     print("Testing Agent guardrail functionality...")

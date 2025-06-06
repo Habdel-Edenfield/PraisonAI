@@ -10,6 +10,7 @@ import sys
 import os
 import asyncio
 import pytest
+pytest.importorskip("praisonaiagents")
 
 # Add the praisonai-agents module to path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..', 'praisonai-agents')))

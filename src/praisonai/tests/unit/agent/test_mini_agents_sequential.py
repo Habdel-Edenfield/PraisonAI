@@ -7,6 +7,7 @@ This will help verify the fix works correctly.
 import sys
 import os
 import pytest
+pytest.importorskip("praisonaiagents")
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
 
 from praisonaiagents import Agent, Agents

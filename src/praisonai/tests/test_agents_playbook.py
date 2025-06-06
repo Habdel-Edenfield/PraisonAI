@@ -3,6 +3,7 @@ import unittest
 import subprocess
 import pytest
 import os
+pytest.importorskip("yaml")
 from praisonai import PraisonAI
 
 class TestPraisonAIFramework(unittest.TestCase):

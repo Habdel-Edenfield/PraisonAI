@@ -6,6 +6,8 @@ Test script for guardrails functionality in PraisonAI Agents.
 import os
 import sys
 import logging
+import pytest
+pytest.importorskip("praisonaiagents")
 
 from praisonaiagents import Agent, Task, TaskOutput
 from praisonaiagents.guardrails import GuardrailResult, LLMGuardrail

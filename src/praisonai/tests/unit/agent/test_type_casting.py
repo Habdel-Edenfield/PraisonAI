@@ -11,9 +11,11 @@ import unittest
 from unittest.mock import Mock, patch
 import sys
 import os
+import pytest
 
 # Add the source directory to the path for imports
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '../../../src/praisonai-agents'))
+pytest.importorskip("praisonaiagents")
 
 from praisonaiagents.agent.agent import Agent
 

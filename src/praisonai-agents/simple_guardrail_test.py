@@ -6,6 +6,8 @@ Simple test for guardrails functionality without full dependencies.
 import sys
 import os
 from typing import Tuple, Any
+import pytest
+pytest.importorskip("praisonaiagents")
 
 # Import only what we need for testing
 from praisonaiagents.guardrails import GuardrailResult, LLMGuardrail
