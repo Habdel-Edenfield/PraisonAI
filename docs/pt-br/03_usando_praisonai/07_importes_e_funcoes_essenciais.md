@@ -31,7 +31,7 @@ A função `get_logger(__name__)` fornece um logger padronizado para acompanhar 
 ## Exemplo de Uso
 
 ```python
-from praisonaiagents import Agent, PraisonAIAgents
+from praisonaiagents import Agent, Task, PraisonAIAgents
 from praisonaiagents.tools import Tool
 from praisonaiagents.common.log_adapter import get_logger
 
