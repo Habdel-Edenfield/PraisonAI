@@ -20,6 +20,7 @@
 
 </div>
 
+
 PraisonAI is a fork of the original [MervinPraison/PraisonAI](https://github.com/MervinPraison/PraisonAI) project.
 This edition is maintained by [Habdel-Edenfield](https://github.com/Habdel-Edenfield) and aims to be a **learning laboratory** for AI agent development.
 Our goal is to provide clear examples and practical documentation for building multi‑agent systems.
@@ -79,10 +80,11 @@ agent = Agent(instructions="Your are a helpful AI assistant")
 agent.start("Write a movie script about a robot in Mars")
 ```
 
-Run:
+Execute:
 ```bash
 python app.py
 ```
+
 
 ### 2. Multiple Agents
 
@@ -96,10 +98,11 @@ agents = PraisonAIAgents(agents=[research_agent, summarise_agent])
 agents.start()
 ```
 
-Run:
+Execute:
 ```bash
 python app.py
 ```
+
 
 ## No-Code Usage
 
