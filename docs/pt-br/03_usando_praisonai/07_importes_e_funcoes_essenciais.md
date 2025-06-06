@@ -26,7 +26,7 @@ logger = get_logger()
 # Define a tarefa
 minha_tarefa = Task(
     description="Gerar resumo do texto",
-    tools=[Tools.search]
+    tools=[Tools.SEARCH]
 )
 
 # Define o agente
