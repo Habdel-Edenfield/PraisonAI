@@ -49,4 +49,5 @@ Este arquivo resume os módulos já existentes na documentação em `docs/pt-br`
 -  - (concluído) Mini AI Agents
 - Documentar a estrutura do código e exemplos de YAML (concluído)
 
+
 Este plano deve ser atualizado sempre que novos módulos ou seções forem criados.
