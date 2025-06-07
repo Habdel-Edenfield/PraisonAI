@@ -1,7 +1,7 @@
 
 # Importações e Funções Essenciais
 
-Esta lição apresenta as importações mais comuns do PraisonAI para criar agentes e fluxos de trabalho. Use-a como referência rápida ao iniciar seus projetos.
+    tools=[Tools.internet_search]
 
 ## Principais Módulos
 
